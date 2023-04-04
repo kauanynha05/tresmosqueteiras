@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+     <html lang="pt-br">
+     <head>
+       <meta charset="UTF-8">
+       <center><img src="ifto.png"></center>
+       <title>Formulário de Recrutamento</title>
+       <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+       <div class="container">
+         <h1 class="title"><center>Formulário de Recrutamento</center></h1>
+         <form id="form" onsubmit="return validateForm()">
+           <fieldset>
+             <legend>Dados pessoais:</legend>
+             <div class="form-group">
+               <label for="nome">Nome completo:</label>
+               <input type="text" id="nome" name="nome" required>
+             </div>
+             <div class="form-group">
+               <label for="data-nascimento">Data de nascimento:</label>
+               <input type="date" id="data-nascimento" name="data-nascimento" required>
+             </div>
+             <div class="form-group">
+               <label for="genero">Gênero:</label>
+               <select id="genero" name="genero" required>
+                 <option value="">Selecione</option>
+                 <option value="Masculino">Masculino</option>
+                 <option value="Feminino">Feminino</option>
+                 <option value="Outro">Outro</option>
+               </select>
+             </div>
+             <div class="form-group">
+               <label for="nacionalidade">Nacionalidade:</label>
+               <input type="text" id="nacionalidade" name="nacionalidade" required>
+             </div>
+             <div class="form-group">
+               <label for="endereco">Endereço:</label>
+               <input type="text" id="endereco" name="endereco" required>
+             </div>
+             <div class="form-group">
+               <label for="cidade">Cidade:</label>
+               <input type="text" id="cidade" name="cidade" required>
+             </div>
+             <div class="form-group">
+               <label for="estado">Estado:</label>
+               <input type="text" id="estado" name="estado" required>
+             </div>
+             <div class="form-group">
+               <label for="cep">CEP:</label>
+               <input type="text" id="cep" name="cep" required>
+             </div>
+             <div class="form-group">
+               <label for="telefone">Telefone:</label>
+               <input type="tel" id="telefone" name="telefone" required>
+             </div>
+           </fieldset>
+    
+           <fieldset>
+             <legend>Formação acadêmica:</legend>
+             <div class="form-group">
+               <label for="tecnico-informatica">Técnico em informática:</label>
+               <input type="checkbox" id="tecnico-informatica" name="tecnico-informatica" value="true">
+             </div>
+             <div class="form-group">
+               <label for="tecnologo-sistemas">Tecnólogo em Análise e Desenvolvimento de Sistemas:</label>
+               <input type="checkbox" id="tecnologo-sistemas" name="tecnologo-sistemas" value="true">
+             </div>
+           </fieldset>
+    
+           <fieldset>
+             <legend>Experiências profissionais:</legend>
+             <div class="form-group">
+               <label for="Possuo">Possuo:</label>
+               <input type="checkbox" id="Possuo" name="Possuo" value="true">
+             </div>
+             <div class="form-group">
+               <label for="Não possuo"> Não possuo:</label>
+               <input type="checkbox" id="Não possuo" name="Não Possuo" value="true">
+               <label for="empresa">Empresa:</label>
+                 <input type="text" id="empresa" name="empresa"><br><br>
+                 <label for="cargo">Cargo:</label>
+                 <input type="text" id="cargo" name="cargo"><br><br>
+                
+                 <label for="periodo">Período Inicial:</label>
+                 <input type="date" id="periodo" name="periodo" placeholder="Mês/Ano - Mês/Ano"><br><br>
+                 <label for="periodo">Período Final:</label>
+                 <input type="date" id="periodo" name="periodo" placeholder="Mês/Ano - Mês/Ano"><br><br>
+                
+                 <label for="atividades">Atividades:</label>
+                 <textarea id="atividades" name="atividades"></textarea><br><br>
+                 <label for="responsabilidades">Responsabilidades:</label>
+                 <textarea id="responsabilidades" name="responsabilidades"></textarea><br><br>
+             </div>
+           </fieldset>
+    
+           <!DOCTYPE html>
+           <html>
+             <head>
+               <title>Experiências Adicionais</title>
+             </head>
+             <body>
+               
+                
+                 
+                
+               
+               </form>
+             </body>
+             </html>
+            
+             <!DOCTYPE html>
+<html>
+ 
+ <body>
+   <fieldset>
+    <legend>Habilidades Técnicas Relevantes</legend>
+    <div class="sop">
+      <label for="softwares">Softwares/Ferramentas/Certificações:</label>
+     <input type="text" id="softwares" name="softwares"><br><br>
+     </div>
+    
+     <h3>Idiomas</h3>
+     <div class="sop">
+      <label for="possui_idiomas">Possui habilidades em idiomas?</label>
+     <input type="checkbox" id="possui_idiomas" name="possui_idiomas" value="Sim"><br>
+    
+     <label for="lingua">Língua:</label>
+     <input type="text" id="lingua" name="lingua"><br><br>
+    
+     <label for="nivel">Nível de Proficiência:</label>
+     <select id="nivel" name="nivel">
+      <option></option>
+       <option value="Básico">Básico</option>
+       <option value="Intermediário">Intermediário</option>
+       <option value="Avançado">Avançado</option>
+       <option value="Fluente">Fluente</option>
+     </select><br><br>
+     </div>
+   </fieldset>
+
+     
+    
+  
+   </form>
+ </body>
+</html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Minhas habilidades comportamentais</title>
+ </head>
+ <body>
+  <fieldset>
+    <legend>Minhas principais habilidades comportamentais</legend>
+  
+  <div class="sop">
+    <form>
+      <ol>
+        <li><label for="habilidade1">Habilidade 1:</label><input type="text" name="habilidade1" id="habilidade1"></li>
+        <li><label for="habilidade2">Habilidade 2:</label><input type="text" name="habilidade2" id="habilidade2"></li>
+        <li><label for="habilidade3">Habilidade 3:</label><input type="text" name="habilidade3" id="habilidade3"></li>
+      </ol>
+      
+    </form>
+   </div>
+  </fieldset>
+ </body>
+</html>
+<fieldset>
+  <legend>Informações Adicionais</legend>
+  <form>
+    <h3>Pretensão Salarial</h3>
+    <div class="sop">
+     <label for="pretensao_salarial">Valor:</label>
+    <input type="number" id="pretensao_salarial" name="pretensao_salarial"><br><br>
+    </div>
+   
+    <h3>Disponibilidade para Início</h3>
+    <div class="sop">
+     <label for="disponibilidade">Data:</label>
+    <input type="date" id="disponibilidade" name="disponibilidade"><br><br>
+    </div>
+   
+   
+  </form>
+</fieldset>
+ <br><br>
+<center><button>Enviar</button></center>
+ </body>
+</html>

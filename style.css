@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    font-family: 'roboto slab';
+    background-color: rgb(233, 228, 227);
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 80px;
+}
+
+legend{
+    font-size: 20px;
+}
+
+.form-group, .adicionais, .sop{
+    color: rgb(9, 145, 27);
+    align-text: center;
+}
+h1 {
+    font-size: 50px;
+}
+
+button{
+    color: rgb(241, 241, 241);
+    background-color: rgb(9, 145, 27);
+    padding: 20px;
+    width: 1500px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
